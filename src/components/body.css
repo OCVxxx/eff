@@ -1,0 +1,9 @@
+body {
+  background-color: #f8f8e0;
+  margin: 0;
+}
+
+.box {
+    inset: 0;
+    background: black;
+}

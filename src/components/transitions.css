@@ -1,0 +1,40 @@
+/* BUTTONS */
+.standard-button .stroke,
+.standard-button .fill {
+  transition: fill 0.125s, stroke 0.125s;
+}
+
+.standard-button,
+.selected-button {
+  transition: color 0.125s, -webkit-text-stroke 0.125s, opacity 0.125s;
+}
+
+.normal-button {
+  transition: filter 0.125s;
+}
+
+/* SEGMENTED CONTROLS IN SETTINGS*/
+.selected-glow {
+  transition: fill 0.125s, filter 0.125s;
+}
+
+.hover-indicator {
+  transition: stroke 0.125s;
+}
+
+/* INSPECTION */
+.heading-inspection,
+.revealed-content {
+  transition: opacity 0.125s;
+}
+
+.fade {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.125s, opacity 0.125s linear;
+}
+
+/* SCRAMBLE */
+.hide-scramble {
+  display: none;
+}

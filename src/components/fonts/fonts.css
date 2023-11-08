@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Zinpenkeba R";
+  src: url("ZinPenKeba-R.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comicneueangular";
+  src: url("comic-neue-2.51/OTF/ComicNeue-Angular/ComicNeueAngular-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comicneueangular";
+  src: url("comic-neue-2.51/OTF/ComicNeue-Angular/ComicNeueAngular-Italic.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comicneueangular";
+  src: url("comic-neue-2.51/OTF/ComicNeue-Angular/ComicNeueAngular-BoldItalic.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comicneue";
+  src: url("comic-neue-2.51/OTF/ComicNeue/ComicNeue-Italic.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comicneue";
+  src: url("comic-neue-2.51/OTF/ComicNeue/ComicNeue-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comicneue";
+  src: url("comic-neue-2.51/OTF/ComicNeue/ComicNeue-BoldItalic.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comicneue";
+  src: url("comic-neue-2.51/OTF/ComicNeue/ComicNeue-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HatsukoiFriendsmini";
+  src: url("HatsukoiFriends.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "851MkPOP";
+  src: url("851MkPOP_101.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Starborn";
+  src: url("Starborn.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HuiFont";
+  src: url("HuiFont29.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ShantellSans Sans";
+  src: url("ShantellSans[BNCE,INFM,SPAC,ital,wght].ttf") format("woff2 supports variations");
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,78 @@
+/*
+OVERVIEW
+left:
+    scramble
+    goal
+    bests
+    results (singles, a5, a12)
+
+right:
+    solutions
+*/
+
+/* BODY */
+:root {
+  --text-color: #545155;
+  /* --button-color-light: rgba(101, 48, 25, 0.5); */
+}
+
+body {
+  color: var(--text-color);
+  -webkit-text-stroke-color: var(--text-color);
+}
+
+/* SCRAMBLE AND SOLUTION */
+/* HatsukoiFriendsmini */
+.scramble-text,
+.solutions-text{
+  font-family: HatsukoiFriendsmini, sans-serif;
+  font-size: 24px;
+}
+
+.goal-text {
+  font-family: Zinpenkeba R, sans-serif;
+  font-size: 20px;
+  /* font-weight: bold; */
+  /* scale: 1 0.85; */
+  transform-origin: top;
+  -webkit-text-stroke: 0.9px;
+  letter-spacing: -0.4px;
+
+  /* -webkit-text-stroke-width: 1px; */
+}
+
+.scramble-text {
+  -webkit-text-stroke-width: 1px;
+  white-space: nowrap;
+  width: 0;
+  /* border: 5px solid black; */
+}
+
+.solutions-text {
+  list-style-type: none;
+  -webkit-text-stroke-width: 0.7px;
+  /* margin: 0; */
+  padding: 0;
+}
+
+/* RESULTS */
+
+.results-table {
+  /* transform-origin: top left; */
+  /* font-weight: bold; */
+  -webkit-text-stroke: 0.5px;
+  
+}
+
+/* STATS */
+
+.stats-text {
+  font-family: Zinpenkeba R , sans-serif;
+  font-size: 20px;
+  line-height: 1.2em;
+  /* font-weight: bold; */
+  /* scale: 1 0.80; */
+  /* transform-origin: top left; */
+  /* text-shadow: 2px 2px #c4bbb3; */
+  -webkit-text-stroke-width: 1px;
+}

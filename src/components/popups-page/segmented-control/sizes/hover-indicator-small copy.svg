@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  preserveAspectRatio="none" class="hover-indicator" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="-3 -3 151.2 34.76">
+  <defs>
+    <style>
+      .cls-1 {
+        vector-effect: non-scaling-stroke;
+      }
+    </style>
+  </defs>
+  
+  <path class="cls-1" d="m.48,8.13c.42-1.65,1.05-3.03,1.9-4.15C4.15,1.67,6.89.5,10.72.5h1.29"/>
+  <path class="cls-1" d="m133.19.5h1.29c5.68,0,8.93,2.56,10.23,7.63"/>
+  <path class="cls-1" d="m12.01,28.26h-1.29c-5.68,0-8.93-2.55-10.24-7.62"/>
+  <path class="cls-1" d="m144.71,20.64c-.42,1.65-1.05,3.03-1.9,4.14-1.77,2.32-4.5,3.48-8.33,3.48h-1.29"/>
+</svg>

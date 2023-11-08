@@ -1,0 +1,128 @@
+/* CONTROLS */
+.controls {
+  /* SEPARATOR COLOR */
+  --separator-color: #aba47b;
+  --separator-opacity: 0.5;
+
+  /* TEXT COLOR SCHEME */
+  --unselected-color: #aba47b;
+
+  /* GLOW COLOR SCHEME */
+  --selected-color: #61d162;
+  --hover-color: #e4dba0;
+  --hover-opacity: 1;
+
+  /* HOVER INDICATOR */
+  --indicator-color: #5fa1e7;
+}
+
+.controls {
+  display: flex;
+  column-gap: 0px;
+  position: relative;
+  height: 2em;
+}
+
+.segment {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+/* TEXT */
+.segment button {
+  height: 100%;
+  width: 100%;
+
+  font-family: Zinpenkeba R, sans-serif;
+  font-size: 20px;
+  -webkit-text-stroke: 1.25px;
+
+  cursor: pointer;
+  position: relative;
+}
+
+.selected {
+  color: var(--text-color);
+  -webkit-text-stroke-color: var(--text-color);
+}
+
+/* UNSELECTED TEXT*/
+.unselected {
+  color: var(--unselected-color);
+  -webkit-text-stroke-color: var(--unselected-color);
+}
+
+/* BACKGROUND GLOW */
+.background-glow {
+  fill: #f1eab6;
+  filter: blur(4px);
+  scale: 1.05 1.15;
+  z-index: -2;
+}
+
+/* SELECTED GLOW */
+.selected .selected-glow {
+  z-index: -1;
+}
+
+.selected-glow:not(.selected .selected-glow) {
+  fill: transparent;
+}
+
+.selected .selected-glow {
+  fill: var(--selected-color);
+}
+
+/* ACTIVE, HOVER */
+button:active .selected-glow,
+button:hover .selected-glow,
+.selected .selected-glow {
+  display: unset;
+  filter: blur(3px);
+}
+
+button:not(.selected):hover .selected-glow {
+  fill: var(--hover-color);
+  opacity: var(--hover-opacity);
+}
+
+/* SEPARATOR */
+.segment:first-of-type .separator {
+  display: none;
+}
+
+.separator {
+  /* positioning */
+  width: unset;
+  translate: -4.5px;
+
+  /* styling */
+  fill: none;
+  stroke: var(--separator-color);
+  stroke-linecap: round;
+  stroke-width: 3px;
+  opacity: var(--separator-opacity);
+  z-index: -2;
+}
+
+/* SELECTED INDICATOR */
+.button-small {
+  --scale: 1.5 1.7;
+}
+.button-big {
+  --scale: 1.05 1.5;
+}
+
+.hover-indicator {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 4px;
+  stroke-linecap: round;
+
+  scale: var(--scale);
+  z-index: 1;
+}
+
+button:hover .hover-indicator {
+  stroke: var(--indicator-color);
+}

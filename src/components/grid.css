@@ -1,0 +1,80 @@
+/* MAIN CONTENT GRID (everything besides cube and scramble)*/
+
+:root {
+  --gap-width: 15px;
+}
+
+.grid-template {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-content {
+  grid-template-rows: auto auto;
+
+  grid-column-gap: 0px;
+  grid-row-gap: var(--gap-width);
+
+  width: 100%;
+
+  grid-auto-columns: min-content
+}
+
+.stats-content, .scramble-text {
+  margin-bottom: var(--gap-width);
+}
+
+.revealed-content {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-left {
+  grid-area: 2/ 1/ 2/ 1;
+}
+
+.right {
+  grid-area: 2/3/3/4;
+}
+
+/* .left {
+  border: 2px solid black;
+} */
+
+/* .right {
+  border: 2px solid black;
+} */
+
+/* SCRAMBLE */
+
+.grid-scramble {
+  grid-template-rows: auto;
+
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  width: 100%;
+}
+
+/* CUBE */
+
+.grid-cube {
+  position: absolute;
+  grid-template-rows: auto;
+
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  width: 100%;
+  height: 100dvh;
+
+  z-index: -1;
+}
+
+.cube {
+  grid-area: 1 / 2 / 1 / 2;
+  align-self: center;
+}

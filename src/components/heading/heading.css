@@ -1,0 +1,116 @@
+:root {
+  --default-color: #ffb938;
+  --solutions-color: #f53141;
+  --results-color: #55b33b;
+  --bests-color: #f2621f;
+  --goal-color: #1c75bd;
+  --scramble-color: #773bbf;
+
+  /* SHADOWS */
+  --default-shadow: #ffd18d;
+  --solutions-shadow: #d8828e;
+  --results-shadow: #7be098;
+  --bests-shadow: #e8b382;
+  --goal-shadow: #8faae5;
+  --scramble-shadow: #bf8ce0;
+}
+
+h1 {
+  font-family: Comicneue, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+
+  color: var(--default-color);
+  -webkit-text-stroke-color: var(--default-color);
+  -webkit-text-stroke-width: 0.02em;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* background: red; */
+  margin-left: -1em;
+
+  text-shadow: 2px 2px var(--default-shadow);
+}
+
+
+.heading-inspection {
+  position: absolute;
+  margin: 1em;
+}
+
+.heading-singles {
+  scale: 0.7 1;
+  transform-origin: left;
+}
+
+.heading-solutions,
+.heading-scramble, .heading-goal {
+  margin-bottom: -0.1em;
+}
+
+.right {
+    width: max-content;
+}
+
+.heading-a5, .heading-a12 {
+  margin-left: -1ch;
+}
+
+
+/* RESULTS GRID */
+
+.grid-results {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.heading-a5 {
+  grid-area: 1/2/1/2;
+}
+
+.heading-a12 {
+  grid-area: 1/3/1/3;
+}
+
+/* INDIVIDUAL HEADING COLORS */
+
+.heading-results {
+  color: var(--results-color);
+  -webkit-text-stroke-color: var(--results-color);
+
+  text-shadow: 2px 2px var(--results-shadow);
+}
+
+.heading-singles {
+  text-shadow: 2.85px 2px var(--results-shadow);
+}
+
+.heading-solutions {
+  color: var(--solutions-color);
+  -webkit-text-stroke-color: var(--solutions-color);
+
+  text-shadow: 2px 2px var(--solutions-shadow);
+}
+
+.heading-goal {
+  color: var(--goal-color);
+  -webkit-text-stroke-color: var(--goal-color);
+
+  text-shadow: 2px 2px var(--goal-shadow);
+}
+
+.heading-bests {
+  color: var(--bests-color);
+  -webkit-text-stroke-color: var(--bests-color);
+
+  text-shadow: 2px 2px var(--bests-shadow);
+}
+
+.heading-scramble {
+  color: var(--scramble-color);
+  -webkit-text-stroke-color: var(--scramble-color);
+
+  text-shadow: 2px 2px var(--scramble-shadow);
+}

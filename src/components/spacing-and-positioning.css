@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  /* border: 2px solid black; */
+}
+
+/* .left {
+  margin-left: 200px;
+  position: relative;
+} */
+
+/* LEFT WIDTH */
+
+.left { /* the width of left is determined by the width of results-text, which is determined by font size */
+  font-size: 20px;
+  font-family: Zinpenkeba R, sans-serif;
+  width: 22ch;
+  justify-self: end;
+}
+
+/* ---- */
+
+.solutions-text {
+  margin-top: 0;
+}
+
+.right {
+  font-family: Comicneue, sans-serif;
+  font-size: 30px;
+  margin-left: 1em;
+}
