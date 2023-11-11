@@ -70,7 +70,7 @@ function TrainerView(props: {
 
   let revealedContent = (
     <div className={"revealed-content" + (!isRevealed ? " fade" : "")}>
-      {scrambleContent} hello
+      {scrambleContent}
       <div className="grid-template grid-content">
         <div className="left top-left">
           <GoalView {...{ state, dispatch }} />
